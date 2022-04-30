@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-source /home/unilsson/.git_token
+source /home/$USER/.git_token
 REPO="${PWD##*/}"
 
 git add .

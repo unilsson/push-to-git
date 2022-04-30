@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+source /home/unilsson/.git_token
+REPO="${PWD##*/}"
+
+echo push https://$GIT_TOKEN@github.com/unilsson/$REPO.git
+git add .
+git commit -m "$1"
+git push https://$GIT_TOKENxs@github.com/unilsson/$REPO.git
+

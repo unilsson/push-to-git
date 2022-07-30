@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 source /home/$USER/.git_token
-REPO="${PWD##*/}"
+REPO="${PWD}"
 
 git add .
 git commit -m "$1"

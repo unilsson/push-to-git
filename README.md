@@ -4,5 +4,7 @@ A simple script that semi-automizes the push of stuff to github. The github toke
 
 The script is called as `push-to-git <commit text>`
 
-The script should be put in the git repository directory. If you want you can skip synzhing the actual script to github.com by fixing the .gitignore file. It is OK to synch the script since it contains no secret information.
+The script should be put in the git repository directory. If you want you can skip synching the actual script to 
+github.com by fixing the .gitignore file. It is OK to synch the script since it contains no secret information. The script gets the
+correct path to bash and is thus portable across different Linux/FreeBSD flavors.
 
